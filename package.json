@@ -16,6 +16,10 @@
       {
         "command": "branchreader.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "extension.viewFileInBranch",
+        "title": "View File in Branch"
       }
     ]
   },
