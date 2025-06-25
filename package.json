@@ -3,6 +3,7 @@
   "displayName": "BranchReader",
   "description": "A VS Code extension to view and compare files across branches.",
   "version": "0.0.1",
+  "icon": "assets/icon.png",
   "engines": {
     "vscode": "^1.101.0"
   },
@@ -16,6 +17,22 @@
     "onCommand:extension.openFileFromCommit"
   ],
   "main": "./out/extension.js",
+  "publisher": "AvilashGhosh",
+  "repository": {
+    "url": "https://github.com/Avilash2001/BranchReader",
+    "type": "git"
+  },
+  "keywords": [
+    "git",
+    "branches",
+    "compare",
+    "files",
+    "vscode-extension"
+  ],
+  "galleryBanner": {
+    "color": "#FF6580",
+    "theme": "dark"
+  },
   "contributes": {
     "commands": [
       {
