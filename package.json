@@ -1,7 +1,7 @@
 {
   "name": "branchreader",
   "displayName": "BranchReader",
-  "description": "",
+  "description": "A VS Code extension to view and compare files across branches.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.101.0"
@@ -9,17 +9,34 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:extension.viewFileInBranch",
+    "onCommand:extension.compareFileAcrossBranches",
+    "onCommand:extension.searchFilesAcrossBranches",
+    "onCommand:extension.openFileFromCommit"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "branchreader.helloWorld",
-        "title": "Hello World"
-      },
-      {
         "command": "extension.viewFileInBranch",
         "title": "View File in Branch"
+      },
+      {
+        "command": "extension.compareFileAcrossBranches",
+        "title": "Compare File Across Branches"
+      },
+      {
+        "command": "extension.searchFilesAcrossBranches",
+        "title": "Search for Files Across Branches"
+      },
+      {
+        "command": "extension.compareBranches",
+        "title": "Compare Branches (File Diff Summary)"
+      },
+      {
+        "command": "extension.openFileFromCommit",
+        "title": "Open File from a Specific Commit"
       }
     ]
   },
