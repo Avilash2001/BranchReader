@@ -1,6 +1,8 @@
 # **BranchReader** 🚀  
 _A Git-tastic VS Code Extension to Explore, Compare, and Read Files Across Branches!_
 
+Market Place Link: https://marketplace.visualstudio.com/items?itemName=AvilashGhosh.branchreader
+
 ---
 
 ## **What is BranchReader?** 🤔  
